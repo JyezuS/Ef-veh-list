@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echo Falls - Járműlista</title>
+    <style>
+        :root {
+            color-scheme: dark;
+            --page: #171a18;
+            --panel: #222723;
+            --line: #39413b;
+            --text: #f0f2ec;
+            --muted: #a4ada5;
+            --accent: #c7f36b;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            color: var(--text);
+            background: radial-gradient(ellipse at 10% 0%, #303930, transparent 38%), var(--page);
+            font-family: "Segoe UI", Arial, sans-serif;
+        }
+        header, main { width: min(1120px, calc(100% - 36px)); margin: 0 auto; }
+        header { padding: 38px 0 25px; border-bottom: 1px solid var(--line); }
+        .eyebrow { color: var(--accent); font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; }
+        h1 { margin: 7px 0 0; font-size: clamp(32px, 7vw, 56px); line-height: 1; text-transform: uppercase; }
+        main { padding: 16px 0 38px; }
+        section { padding: 18px 0; scroll-margin-top: 16px; }
+        h2 { display: flex; align-items: center; gap: 10px; margin: 0 0 12px; font-size: 23px; }
+        h2::before { width: 4px; height: 23px; border-radius: 2px; background: var(--tier); content: ""; }
+        h2 span { padding: 3px 7px; border: 1px solid var(--line); border-radius: 3px; color: var(--muted); font-size: 11px; font-weight: 500; }
+        ul { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 8px; margin: 0; padding: 0; list-style: none; }
+        li { min-width: 0; padding: 11px 13px; overflow-wrap: anywhere; border: 1px solid var(--line); border-radius: 4px; background: var(--panel); font-size: 14px; }
+        .empty { color: var(--muted); font-size: 13px; }
+        @media (max-width: 500px) { header, main { width: calc(100% - 24px); } ul { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; } li { padding: 10px; font-size: 12px; } }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="eyebrow">Echo Falls roleplay</div>
+        <h1>Járműlista</h1>
+    </header>
+    <main>
+        <section style="--tier:#c7f36b" aria-labelledby="tier-s-plus">
+            <h2 id="tier-s-plus">S+ <span>11</span></h2>
+            <ul>
+                <li>2019chiron</li><li>agerars</li><li>amgone</li><li>fxxkevo</li><li>gta5rp_veh_ferrari19</li><li>gxone</li><li>jes21</li><li>neonp1</li><li>RYGBus</li><li>sex6</li><li>sian</li>
+            </ul>
+        </section>
+        <section style="--tier:#f2d36e" aria-labelledby="tier-s">
+            <h2 id="tier-s">S <span>18</span></h2>
+            <ul>
+                <li>1016rwdevo</li><li>18performante</li><li>22artura</li><li>675lt</li><li>amggtbs</li><li>f812</li><li>gemera</li><li>gt17</li><li>porche911speedhunter</li><li>r35secret</li><li>r820</li><li>rmodf40</li><li>rmodr8c</li><li>rs6abt20</li><li>sf90</li><li>teslaroad</li><li>TTSTO</li><li>zl1</li>
+            </ul>
+        </section>
+        <section style="--tier:#ff9b61" aria-labelledby="tier-a">
+            <h2 id="tier-a">A <span>27</span></h2>
+            <ul>
+                <li>16charger</li><li>17m760i</li><li>17mansorypnmr</li><li>2019m5</li><li>22m5</li><li>488</li><li>911gtrs</li><li>amggt16</li><li>carrera19</li><li>contgt2011</li><li>DL_rs6</li><li>DL_rs7</li><li>DLRS3</li><li>dlmustmec</li><li>gt2rs</li><li>HELLCATF9</li><li>ikx3mc2021</li><li>mach1</li><li>nismo20</li><li>nsx17</li><li>ocnetrongt</li><li>panamturs21</li><li>por911gt3</li><li>rmodgt63</li><li>rs5mans</li><li>rs7</li><li>scubieblob</li>
+            </ul>
+        </section>
+        <section style="--tier:#ff765f" aria-labelledby="tier-b">
+            <h2 id="tier-b">B <span>26</span></h2>
+            <ul>
+                <li>2018s650p</li><li>2020CLA45s</li><li>AAQ4</li><li>benzc32</li><li>bmw8mm</li><li>c63scpd</li><li>civic2020</li><li>dawnonyx</li><li>e63s</li><li>FGT</li><li>gcma4sedan2021</li><li>gt63</li><li>m3e92</li><li>m3s</li><li>m4c</li><li>m5e60</li><li>model3</li><li>nm_ctsv</li><li>rmodbentley1</li><li>rmode63s</li><li>rrwraith</li><li>rs6c8</li><li>s500w222</li><li>s63msc</li><li>v60hr</li><li>waldw222</li>
+            </ul>
+        </section>
+        <section style="--tier:#73d9d3" aria-labelledby="tier-c">
+            <h2 id="tier-c">C <span>7</span></h2>
+            <ul>
+                <li>bmwe39</li><li>evo9</li><li>golf75r</li><li>m3e36</li><li>maybach</li><li>passat</li><li>356a</li>
+            </ul>
+        </section>
+        <section style="--tier:#a8b0a7" aria-labelledby="tier-d">
+            <h2 id="tier-d">D <span>10</span></h2>
+            <ul>
+                <li>77Monte</li><li>BOSS429</li><li>e55</li><li>ELEANOR</li><li>FORTWO17</li><li>gto66c</li><li>mustang65</li><li>rmodcharger69</li><li>singer</li><li>w140</li>
+            </ul>
+        </section>
+        <section style="--tier:#9ad47a" aria-labelledby="tier-utility">
+            <h2 id="tier-utility">Haszongepjarmu <span>2</span></h2>
+            <ul><li>dl450mec</li><li>dl550mec</li></ul>
+        </section>
+        <section style="--tier:#ff765f" aria-labelledby="tier-police-s-plus">
+            <h2 id="tier-police-s-plus">Rendorseg S+ <span>0</span></h2>
+            <p class="empty">Nincs ilyen besorolas a listaban.</p>
+        </section>
+        <section style="--tier:#f0846d" aria-labelledby="tier-police-s">
+            <h2 id="tier-police-s">Rendorseg S <span>0</span></h2>
+            <p class="empty">Nincs ilyen besorolas a listaban.</p>
+        </section>
+        <section style="--tier:#e78379" aria-labelledby="tier-police-a">
+            <h2 id="tier-police-a">Rendorseg A <span>1</span></h2>
+            <ul><li>speeddemonrb</li></ul>
+        </section>
+        <section style="--tier:#73a9dc" aria-labelledby="tier-police-b">
+            <h2 id="tier-police-b">Rendorseg B <span>0</span></h2>
+            <p class="empty">Nincs ilyen besorolas a listaban.</p>
+        </section>
+        <section style="--tier:#73d9d3" aria-labelledby="tier-police-c">
+            <h2 id="tier-police-c">Rendorseg C <span>0</span></h2>
+            <p class="empty">Nincs ilyen besorolas a listaban.</p>
+        </section>
+        <section style="--tier:#a8b0a7" aria-labelledby="tier-police-d">
+            <h2 id="tier-police-d">Rendorseg D <span>0</span></h2>
+            <p class="empty">Nincs ilyen besorolas a listaban.</p>
+        </section>
+        <section style="--tier:#9ad47a" aria-labelledby="tier-police-utility">
+            <h2 id="tier-police-utility">Rendorseg haszongepjarmu <span>2</span></h2>
+            <ul><li>polcoach</li><li>sw_bearcat</li></ul>
+        </section>
+        <section style="--tier:#f2d36e" aria-labelledby="tier-event">
+            <h2 id="tier-event">Event <span>4</span></h2>
+            <ul><li>bigdaddy</li><li>f1</li><li>mi8</li><li>neonp1</li></ul>
+        </section>
+        <section style="--tier:#a8b0a7" aria-labelledby="tier-unclassified">
+            <h2 id="tier-unclassified">Unsorted / other non-OFF vehicles <span>30</span></h2>
+            <ul>
+                <li>1500ghoul</li><li>1016urus</li><li>16topcargle</li><li>2019tundrac</li><li>20xb7</li><li>21rsq8</li><li>22g63</li><li>6x6</li><li>bentaygam</li><li>cayen19</li><li>ckdrivingschool</li><li>keyrus</li><li>kln</li><li>mlbrabus</li><li>mlnovitec</li><li>modelx</li><li>nm_z71</li><li>nissantitan17</li><li>oycdefender</li><li>ramtrx6x6</li><li>rapger19</li><li>rmodcharger</li><li>rmodjeepg</li><li>rmodr50</li><li>rmodx6</li><li>trhawk</li><li>trx</li><li>venatus</li><li>xc90</li><li>GODzRAMTRX6x6</li>
+            </ul>
+        </section>
+        <section style="--tier:#ff765f" aria-labelledby="tier-off">
+            <h2 id="tier-off">OFF <span>295</span></h2>
+            <ul>
+                <li>17silvk9rb</li><li>18Velar</li><li>19gv80</li><li>2022jeep</li><li>21sierra</li><li>2f2fgtr34</li><li>2ncsbmwm8</li><li>2ncsx7</li><li>2nddragg</li><li>350z</li>
+                <li>488animated</li><li>488sp</li><li>600ltwb</li><li>74civrswb</li><li>812mnsry</li><li>911turbos</li><li>a45</li><li>a80</li><li>a90sh</li><li>abhawk</li>
+                <li>alpinab7</li><li>alpinab7BLACKEDITION</li><li>amarok</li><li>AmgGtrLight</li><li>amrevu23mg</li><li>animfk8hr</li><li>audirs8</li><li>autobio</li><li>b63s</li><li>ben17</li>
+                <li>benzsl63</li><li>bmwg07</li><li>bmwvision</li><li>brz1 3varis</li><li>c63hr</li><li>c8</li><li>c8p1</li><li>cayennemecqq</li><li>centuria</li><li>chargerf8</li>
+                <li>chironspeedhunter</li><li>chironsuper</li><li>chironsupersport22</li><li>choilambo</li><li>ckbmwm4offwhite</li><li>ckm3e36</li><li>cls19</li><li>cls500w219</li><li>crownbp</li><li>cx30wz</li>
+                <li>demon</li><li>demonhawkk</li><li>DL_a45</li><li>DL_G900</li><li>DL993</li><li>DLAmbulance</li><li>DLAmbulance2</li><li>DLAmbulance3</li><li>DLCyber</li><li>dle39m5</li>
+                <li>DLGT</li><li>DLI8</li><li>DLLAF</li><li>DLM2</li><li>DLM5EMS</li><li>DLM7EMS</li><li>dlr34um</li><li>DLRAMEMS</li><li>DLRS6EMS</li><li>dlrs6um</li>
+                <li>DLRS7EMS</li><li>DLRSQ8EMS</li><li>DLX5EMS</li><li>DLYAMAHAEMS</li><li>Drag1</li><li>Drag2</li><li>Drag3</li><li>Drag4</li><li>Drag5</li><li>Drag6</li>
+                <li>Drag7</li><li>DragS14</li><li>dvc63darwin</li><li>e39touring</li><li>e63test</li><li>e92bb</li><li>eli</li><li>escaladeprime</li><li>eve</li><li>evo9drift</li>
+                <li>evox</li><li>f12rp</li><li>fd370z</li><li>fenyrsupersport</li><li>ferrari812super</li><li>fk8</li><li>fnfmk4</li><li>fpaceprior</li><li>furai</li><li>g63</li>
+                <li>g63c</li><li>G63Sam</li><li>g65</li><li>g700brabusretuned</li><li>g81hr</li><li>g900przemo6x6</li><li>gcmlamboultimae</li><li>gcram1500</li><li>gfuckedsupra</li><li>giulia_2021</li>
+                <li>gmcev2</li><li>GODz95GSX</li><li>GODzDRIFTCAT</li><li>GODzKSTERZOTACHA</li><li>GODzRB26SUBI</li><li>GODzVIPS63AMG</li><li>golf1</li><li>golf7</li><li>golf8gti</li><li>golf91wideprzemo</li>
+                <li>gt3demon</li><li>gt3hycade</li><li>gt63mt</li><li>gt86trust</li><li>gta5rp_veh_gle1</li><li>gta5rp_veh_gtr33</li><li>gtr50</li><li>gtrh</li><li>gtz34be</li><li>gurkharb</li>
+                <li>h2m</li><li>hellcatlb</li><li>huracanpriorbeast</li><li>hycadeevo</li><li>Hycaders6</li><li>hycadesti</li><li>hycadeurus</li><li>hyundaiveloster</li><li>ikx3abt20</li><li>ikx3rebel22</li>
+                <li>impronta4</li><li>jagoffroad</li><li>jesko</li><li>kgc10</li><li>kgjoker</li><li>KillerHwak</li><li>km1000rr</li><li>kyza36</li><li>lbperfs</li><li>lbwk35</li>
+                <li>lowrider_ballas</li><li>m135iwb</li><li>m3e46</li><li>m3g80mp</li><li>M4CC</li><li>m4f82</li><li>m4lb2</li><li>m4speedhunter</li><li>m5cs22</li><li>m6e24</li>
+                <li>machewb</li><li>madf350lift</li><li>manhartx7</li><li>mans65</li><li>manscountach</li><li>mansgt</li><li>manspana</li><li>mansrs6</li><li>manssupersnake</li><li>mansurus</li>
+                <li>mayg600p</li><li>mercec63s</li><li>merse63</li><li>mk4hycade</li><li>models</li><li>mteche39</li><li>mxpan</li><li>ninjah2</li><li>nissanr36</li><li>nitro11</li>
+                <li>nitro9</li><li>owlalpina</li><li>p1lbwk</li><li>pd_escalader</li><li>polbmwm3</li><li>polbmwm5</li><li>polbmwm7</li><li>poldurango</li><li>polestar1</li><li>polgt63</li>
+                <li>polmustang</li><li>polo2018</li><li>polrs6</li><li>polsilverado19</li><li>Prisonvan2rb</li><li>q8hycade</li><li>q8prior</li><li>r34h</li><li>r36fp</li><li>r8beastedit</li>
+                <li>raid</li><li>rculi</li><li>rd</li><li>rmod240sx</li><li>rmodfordgt</li><li>rmodg65</li><li>rmodgtr</li><li>rmodm3e36</li><li>rmodm3joker</li><li>rmodm4</li>
+                <li>rmodm4gts</li><li>rmodm4Unikat</li><li>rmodmk7</li><li>rmodmustang</li><li>rmodp1gtr</li><li>rmodpagani</li><li>rmodr8alpil</li><li>rmodr8alpilx</li><li>rmodskyline34</li><li>rmodsvj</li>
+                <li>rmodzl1</li><li>rocket</li><li>Rolls6x6</li><li>RoyalCustome39m5_wb</li><li>rr21shelbystreet</li><li>rrghostbyv</li><li>rrhycadeevoxpd</li><li>rrphantom</li><li>rs322sedan</li><li>rs4rk</li>
+                <li>rs615</li><li>rs666</li><li>rs6rabt20</li><li>rs721</li><li>rs7beast</li><li>rs7bratwa</li><li>rs7c821</li><li>rs7c8beast</li><li>rs7mans</li><li>rs7wide</li>
+                <li>RufusVanquish</li><li>rx7</li><li>rx7veilside</li><li>s1</li><li>s15</li><li>s15lunar</li><li>s63coupe</li><li>s8d4</li><li>sema10x10</li><li>senna</li>
+                <li>silviagd</li><li>sinacp</li><li>skyline</li><li>specialtf</li><li>suprapandem</li><li>suv_triaden</li><li>sw_charg</li><li>sw_durango</li><li>sw_sprinter</li><li>sw_suburb</li>
+                <li>swl</li><li>taycan</li><li>taycanani</li><li>techart17</li><li>terzo</li><li>terzo1</li><li>teslapd</li><li>topcargt63</li><li>unmarkedjl</li><li>Urus_Stretch_6</li>
+                <li>urusbeastedit</li><li>valor10rb</li><li>valor12rb</li><li>valor13rb</li><li>valor15rb</li><li>valor1rb</li><li>valor3rb</li><li>valor5rb</li><li>valor6rb</li><li>valor9rb</li>
+                <li>valorharley</li><li>van_blacklions</li><li>van_vagos</li><li>vanzhycade</li><li>vanztt</li><li>vanzur</li><li>variszupra</li><li>w222wald</li><li>wmfenyr</li><li>wraith</li>
+                <li>x6wz</li><li>zentenario</li><li>zlay_gtz35</li><li>zm_rocket900</li><li>zm_s500</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
